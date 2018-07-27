@@ -15,3 +15,4 @@ async def updates(ctx)
     embed.set_footer(text="This bot was made by WolfBane#5559")
     await ctx.send(embed=embed)
     
+bot.run('NDcyMjcxMTA2MTMzNDU4OTQ0.Djw-nQ.mv8x4GYWOwAzSqE_N1C2C66N9rA')
