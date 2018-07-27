@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix='VB!')
+bot = commands.Bot(command_prefix='vb!')
 
 @bot.event()
 async def on_ready(ctx):
