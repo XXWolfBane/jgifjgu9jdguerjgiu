@@ -3,7 +3,7 @@ from discord.ext import commands
 
 bot = commands.Bot(command_prefix='vb!')
 
-@bot.event()
+@bot.event
 async def on_ready(ctx):
     print('Logged in as')
     print(bot.user)
